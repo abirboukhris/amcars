@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type:none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Georgia,Rockwell, Calisto MT,sans-serif,Tahoma, Geneva,Verdana;
+}
+.header{
+    background-color: black;
+    width: 100%;
+    height: 75vh;
+    background-image:url("back_voi.jpg");
+    background-size: cover;
+    background-position: cover;
+
+    }
+
+    nav {
+        display: flex;
+        color: #fff;
+        padding : 11%;
+
+        align-items: center;
+        padding-top: 35px;
+        padding-left: 5%;
+        padding-right: 8%;
+        justify-content: space-between;
+
+   
+      }
+      
+
+      nav ul li{
+        display:inline;
+        padding: 10px 25px;
+    }
+    nav ul li a{
+        color:white;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 20;
+        
+    }
+
+    nav ul li a:hover{
+        color:#86b8d7;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+}
+    a.login{
+        background: #86b8d7;
+        color: black;
+        border:2px solid transparent;
+        border-radius: 30px;
+        padding: 10px 25px;
+        transition: transform .6s;
+        font-weight: bold;
+         
+        margin-left: 5%;
+    }
+    a.signup{
+        background: #86b8d7;
+        color: black;
+        border:2px solid transparent;
+        border-radius: 30px;
+        padding: 10px 25px;
+        transition: transform .6s;
+        font-weight: bold;
+        -webkit-transition: transform .6s;
+        -moz-transition: transform .6s;
+        -ms-transition: transform .6s;
+        -o-transition: transform .6s;
+        margin-right: 5%;
+}
+    .login:hover{
+        transform:scale(1.2);
+    }
+    .signup:hover{
+        transform:scale(1.2);
+    }
+    .logo{
+        cursor: pointer;
+        font-size: 30px;
+        color:white;
+        letter-spacing: 1px;
+        margin-right: 10%;
+
+    }
+    span.am{
+        color:#86b8d7;
+    }
+section.welcome{
+   position:absolute;
+   color: #fff;
+   left: 11%;
+   font-size: 35px;
+   font-family: sans-serif;
+   text-align: center;
+   display: inline-block;
+   transition: transform 2s ease-in-out;
+}
+
+  section.welcome:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+span.store{
+    color:#86b8d7;
+}
+.newcollection{
+    width: 100%;
+    height: 75vh;
+    background-color: rgb(46, 43, 43);
+}
+.brand{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(11, 11, 11);
+}
+.contactus{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(46, 43, 43);
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(11, 11, 11);
+}
+
+      
